@@ -9,7 +9,7 @@ header {
 
 .caixa {
 	position: relative;
-	width: 940px;
+	width: 70%;
 	margin: 0 auto;
 	padding: 20px 0;
 }
@@ -144,13 +144,14 @@ form label, form legend {
 }
 
 table {
-	margin: 20px 0 40px;
+	margin: 20px auto 40px;
 }
 
 thead {
-	background: #555555;
+	background: #FA5882;
 	color: white;
 	font-weight: bold;
+	font-size: 20px;;
 
 }
 
@@ -256,8 +257,12 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudobeneficios, .mapaconteudo, .video {
+	.caixa, .principal, .conteudobeneficios, .mapaconteudo, .video, .produtos {
 		width: auto;
+	}
+
+	.produtos li {
+		display: block;
 	}
 
 	h1 {
